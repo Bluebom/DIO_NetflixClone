@@ -8,6 +8,11 @@
     <meta name="keywords" content="clone-netflix,netflix,Netflix,Filmes,filme,NETFLIX">
     <title>Clone do Netflix</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!--css_own-->
+    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/owl/owl.carousel.min.css">
+    <!--reponsivo-->
+    <link rel="stylesheet" href="./css/reponsivo.css">
 </head>
 <body>
     <header>
@@ -26,14 +31,37 @@
             <div class="container">
                 <h3 class="titulo">Snowden: Herói ou Traidor</h3>
                 <p class="descricao">Filme de Oliver Stone sobre Edward Snowden, ex-funcionário da CIA que divulgou para a imprensa uma série de documentos sigilosos da Agência de Segurança Nacional dos EUA que comprovaram atos de espionagem do governo norte-americano.</p>
+                <div class="buttons">
+                    <button role="button" class="btn">
+                        <i class="fas fa-play"></i>
+                        ASSITIR AGORA
+                    </button>
+                    <button role="button" class="btn">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div><!--buttons-->
             </div><!--container-->
-            <div class="buttons">
-                <button role="button" class="btn">ASSITIR AGORA</button>
-                <button role="button" class="btn">MAIS INFORMAÇÕES</button>
-            </div><!--buttons-->
         </div><!--main_movie-->
     </main>
+    <section class="corrosel_filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box_filme" src="images/movie0.jpeg" alt="imagem do filme #"></div>
+            <div class="item"><img class="box_filme" src="images/movie1.jpeg" alt="imagem do filme #"></div>
+            <div class="item"><img class="box_filme" src="images/movie2.jpeg" alt="imagem do filme #"></div>
+            <div class="item"><img class="box_filme" src="images/movie3.jpeg" alt="imagem do filme #"></div>
+            <div class="item"><img class="box_filme" src="images/movie4.jpeg" alt="imagem do filme #"></div>
+            <div class="item"><img class="box_filme" src="images/movie5.jpeg" alt="imagem do filme #"></div>
+            <div class="item"><img class="box_filme" src="images/movie6.jpeg" alt="imagem do filme #"></div>
+            <div class="item"><img class="box_filme" src="images/movie7.jpeg" alt="imagem do filme #"></div>
+            <div class="item"><img class="box_filme" src="images/movie8.jpeg" alt="imagem do filme #"></div>
+            <div class="item"><img class="box_filme" src="images/movie9.jpeg" alt="imagem do filme #"></div>
+            <div class="item"><img class="box_filme" src="images/movie10.jpeg" alt="imagem do filme #"></div>
+        </div>
+    </section>
     
 </body>
+<script src="./js/owl/jquery.min.js"></script>
+<script src="./js/owl/owl.carousel.min.js"></script>
 <script src="./js/script.js"></script>
 </html>
